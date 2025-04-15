@@ -1,7 +1,24 @@
 
 body {
-  font-family: sans-serif;
-  background-color: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+  color: #f1f5f9;
   margin: 0;
   padding: 0;
+}
+.card {
+  background-color: #1e293b;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
 }
